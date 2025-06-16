@@ -1,6 +1,6 @@
 # /// script
 # dependencies = [
-#   "kerchunk==0.2.8",
+#   "kerchunk @ git+https://github.com/fsspec/kerchunk@main",
 #   "fsspec==2025.5.1",
 #   "ujson==5.10.0",
 #   "h5py==3.14.0",

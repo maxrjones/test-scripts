@@ -1,13 +1,13 @@
 # /// script
 # dependencies = [
-#   "kerchunk==0.2.8",
+#   "kerchunk @ git+https://github.com/fsspec/kerchunk@main",
 #   "fsspec==2025.5.1",
 #   "ujson==5.10.0",
 #   "h5py==3.14.0",
 #   "s3fs==2025.5.1",
 #   "xarray==2025.6.1",
 #   "matplotlib==3.10.3",
-#   "zarr==3.0.8",
+#   "zarr @ git+https://github.com/zarr-developers/zarr-python@main",
 #   "h5netcdf==1.6.1",
 # ]
 # ///
