@@ -1,0 +1,52 @@
+2025-07-02 15:43:50,373 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore._ensure_open
+2025-07-02 15:43:50,373 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore._ensure_open [0.00 s]
+2025-07-02 15:43:50,374 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.read_only
+2025-07-02 15:43:50,374 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.read_only [0.00 s]
+2025-07-02 15:43:50,374 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.is_empty
+2025-07-02 15:43:50,374 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.is_empty [0.00 s]
+2025-07-02 15:43:50,375 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.get(zarr.json)
+2025-07-02 15:43:50,375 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.get(zarr.json) [0.00 s]
+2025-07-02 15:43:50,376 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set(zarr.json)
+2025-07-02 15:43:50,376 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set(zarr.json) [0.00 s]
+2025-07-02 15:43:50,377 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.read_only
+2025-07-02 15:43:50,377 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.read_only [0.00 s]
+2025-07-02 15:43:50,378 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.supports_listing
+2025-07-02 15:43:50,378 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.supports_listing [0.00 s]
+2025-07-02 15:43:50,378 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.list_dir
+2025-07-02 15:43:50,378 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.list_dir [0.00 s]
+2025-07-02 15:43:50,379 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set(zarr.json)
+2025-07-02 15:43:50,379 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set(zarr.json) [0.00 s]
+2025-07-02 15:43:50,380 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.get(foo/zarr.json)
+2025-07-02 15:43:50,381 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.get(foo/zarr.json) [0.00 s]
+2025-07-02 15:43:50,381 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set(foo/zarr.json)
+2025-07-02 15:43:50,381 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set(foo/zarr.json) [0.00 s]
+2025-07-02 15:43:50,382 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set_if_not_exists(zarr.json)
+2025-07-02 15:43:50,382 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set_if_not_exists(zarr.json) [0.00 s]
+2025-07-02 15:43:50,382 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set(foo/zarr.json)
+2025-07-02 15:43:50,382 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set(foo/zarr.json) [0.00 s]
+2025-07-02 15:43:50,385 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set(foo/c/0)
+2025-07-02 15:43:50,385 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set(foo/c/0) [0.00 s]
+2025-07-02 15:43:50,385 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.get(x/zarr.json)
+2025-07-02 15:43:50,385 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.get(x/zarr.json) [0.00 s]
+2025-07-02 15:43:50,386 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set(x/zarr.json)
+2025-07-02 15:43:50,386 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set(x/zarr.json) [0.00 s]
+2025-07-02 15:43:50,386 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set_if_not_exists(zarr.json)
+2025-07-02 15:43:50,386 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set_if_not_exists(zarr.json) [0.00 s]
+2025-07-02 15:43:50,386 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set(x/zarr.json)
+2025-07-02 15:43:50,386 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set(x/zarr.json) [0.00 s]
+2025-07-02 15:43:50,387 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.delete(x/c/0)
+2025-07-02 15:43:50,387 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.delete(x/c/0) [0.00 s]
+2025-07-02 15:43:50,387 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore._ensure_open
+2025-07-02 15:43:50,387 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore._ensure_open [0.00 s]
+2025-07-02 15:43:50,388 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.get(zarr.json)
+2025-07-02 15:43:50,388 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.get(zarr.json) [0.00 s]
+2025-07-02 15:43:50,388 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.supports_listing
+2025-07-02 15:43:50,388 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.supports_listing [0.00 s]
+2025-07-02 15:43:50,388 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.list_dir
+2025-07-02 15:43:50,388 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.list_dir [0.00 s]
+2025-07-02 15:43:50,389 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.get(foo/zarr.json)
+2025-07-02 15:43:50,389 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.get(foo/zarr.json) [0.00 s]
+2025-07-02 15:43:50,389 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.get(x/zarr.json)
+2025-07-02 15:43:50,389 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.get(x/zarr.json) [0.00 s]
+2025-07-02 15:43:50,390 - LoggingStore(memory://4404627264) - INFO -  Calling MemoryStore.set(zarr.json)
+2025-07-02 15:43:50,390 - LoggingStore(memory://4404627264) - INFO - Finished MemoryStore.set(zarr.json) [0.00 s]

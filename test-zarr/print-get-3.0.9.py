@@ -1,19 +1,27 @@
 # /// script
 # dependencies = [
 #   "xarray @ git+https://github.com/pydata/xarray@main",
-#   "zarr @ git+https://github.com/maxrjones/zarr-python@3.0.9-with-print",
+#   "zarr == 3.0.9",
 #   "numpy==2.3.1",
 #   "pooch",
 #   "netcdf4",
 # ]
 # ///
 
-import zarr
-from zarr.storage import MemoryStore
+from zarr.storage import MemoryStore, LoggingStore
 import xarray as xr
+import logging
 
-print(zarr.__version__)
+log_filename = "zarr_3.0.9.log"
+
 original = xr.Dataset({"foo": ("x", [1])}, coords={"x": [0]})
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(log_filename),
+    ],
+)
 
-with MemoryStore() as store:
+with LoggingStore(MemoryStore()) as store:
     original.to_zarr(store)
